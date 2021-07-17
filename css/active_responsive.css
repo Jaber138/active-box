@@ -1,0 +1,278 @@
+/**************active_responsive_css *******************/
+
+
+
+/******************   TABLET LAYOUT   ****************/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .bnr-overlay {
+        padding: 258px 0 156px 0;
+    }
+
+    .icon_main {
+        text-align: center;
+    }
+
+    #reed {
+        margin-bottom: 50px;
+        margin-top: -15px;
+    }
+
+    .work_overlay {
+        padding: 30% 0;
+    }
+
+    .social_team {
+        margin-bottom: 50px;
+        margin-top: -15px;
+    }
+
+    #team {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    #slider h3 {
+        font-size: 20px;
+        padding-bottom: 2px;
+        margin: 10% 22% 0 11%;
+    }
+
+    .carousel-caption {
+
+        right: 10%;
+        left: 54%;
+        padding-bottom: 4%;
+
+    }
+
+    .carousel-indicators {
+        right: 0;
+        bottom: 6%;
+        left: 0;
+        display: flex;
+        padding-left: 0;
+        margin-right: 10%;
+        margin-left: 57%;
+    }
+
+    .carousel-indicators li {
+        width: 5px;
+        height: 5px;
+        margin-right: 2px;
+        margin-left: 2px;
+        text-indent: -999px;
+        transition: opacity .6s ease;
+    }
+
+    .social_footer ul {
+        padding-left: 40%;
+    }
+}
+
+
+
+
+/***************** WIDE MOBILE LAYOUT*/
+
+@media only screen and (min-width:574px) and (max-width:767px) {
+    .bnr-overlay {
+        padding: 200px 0 156px 0;
+    }
+
+    .bnr-content h1 {
+        font-size: 50px;
+    }
+
+    .social_team {
+        margin-bottom: 50px;
+        margin-top: -15px;
+    }
+
+    #team {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    #slider h3 {
+        font-size: 17px;
+        margin: 8% 3% 0px 11%;
+    }
+
+    #slider p {
+        font-size: 10px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 1%;
+    }
+
+    .social_footer ul {
+        padding-left: 36%;
+    }
+}
+
+
+
+
+/********************  MOBILE LAYOUT***/
+
+@media only screen and (max-width:574px) {
+    .bnr-overlay {
+        padding: 165px 0 115px 0;
+    }
+
+    .bnr-content h1 {
+        font-size: 44px;
+    }
+
+    .icon_main {
+        text-align: center;
+
+    }
+
+    .work_overlay {
+        padding: 30% 0;
+    }
+
+    .social_team {
+        margin-bottom: 50px;
+        margin-top: -15px;
+    }
+
+    .social_team {
+        margin-bottom: 50px;
+        margin-top: -15px;
+    }
+
+    #team {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 0%;
+        right: 3%;
+    }
+
+    .carousel-indicators {
+        bottom: 3%;
+        left: -45%;
+    }
+
+    .carousel-indicators li {
+        width: 6px;
+        height: 6px;
+        margin-right: 1.5px;
+        margin-left: 1.5px;
+        text-indent: -999px;
+        transition: opacity .6s ease;
+    }
+
+    #slider h3 {
+        font-size: 20px;
+        margin: 9% 11% 9px 11%;
+    }
+
+    #slider p {
+        font-size: 10px;
+        margin-bottom: 17%;
+        margin-right: 10%;
+    }
+
+    #download a {
+        padding: 13px 37px;
+    }
+
+    .social_footer ul {
+        padding-left: 31%;
+    }
+}
+
+
+
+
+/******************* Nexus 7, ipad pro 12in *****/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    .icon_main {
+        text-align: center;
+
+    }
+
+    .bnr-overlay {
+        padding: 258px 0 156px 0;
+    }
+
+    .carousel-caption {
+        right: 10%;
+        left: 54%;
+        padding-bottom: 5%;
+    }
+
+    .carousel-indicators {
+        bottom: 1%;
+        margin-left: 60%;
+    }
+
+    .carousel-indicators li {
+        width: 7px;
+        height: 7px;
+        margin-right: 2px;
+        margin-left: 2px;
+        text-indent: -999px;
+        transition: opacity .6s ease;
+    }
+
+    .social_footer ul {
+        /*        padding-left: 36%;*/
+    }
+}
+
+
+
+
+
+
+
+
+/********  FOR iPHONE OR OTHER THAT HAVE PIXEL RATIO 3 ********/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3) {
+
+
+    .carousel-indicators {
+        bottom: 1%;
+        left: -45%;
+    }
+
+    .carousel-indicators li {
+        width: 6px;
+        height: 6px;
+        margin-right: 2px;
+        margin-left: 2px;
+        text-indent: -999px;
+        transition: opacity .6s ease;
+    }
+
+    .carousel-caption {
+        padding-bottom: 0%;
+        right: 3%;
+    }
+
+    #slider h3 {
+        font-size: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #slider p {
+        font-size: 12px;
+        margin-bottom: 17%;
+    }
+
+}
+
+
