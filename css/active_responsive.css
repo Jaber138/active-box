@@ -1,7 +1,5 @@
 /**************active_responsive_css *******************/
 
-
-
 /******************   TABLET LAYOUT   ****************/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -68,10 +66,10 @@
     .social_footer ul {
         padding-left: 40%;
     }
+    #portfolio {
+        padding: 30px 0 30px 0;
+    }
 }
-
-
-
 
 /***************** WIDE MOBILE LAYOUT*/
 
@@ -112,9 +110,6 @@
     }
 }
 
-
-
-
 /********************  MOBILE LAYOUT***/
 
 @media only screen and (max-width:574px) {
@@ -129,10 +124,6 @@
     .icon_main {
         text-align: center;
 
-    }
-
-    .work_overlay {
-        padding: 30% 0;
     }
 
     .social_team {
@@ -187,9 +178,14 @@
     .social_footer ul {
         padding-left: 31%;
     }
+    .gallery .photo {
+        width: calc(100%/2);
+    }
+
+    #portfolio {
+        padding: 30px 0 30px 0;
+    }
 }
-
-
 
 
 /******************* Nexus 7, ipad pro 12in *****/
@@ -225,23 +221,19 @@ only screen and (min-device-pixel-ratio: 2) {
         transition: opacity .6s ease;
     }
 
-    .social_footer ul {
-        /*        padding-left: 36%;*/
+    #portfolio {
+        padding: 0 0 10px 0;
+    }
+    .gallery .photo {
+        width: calc(100%/2);
     }
 }
-
-
-
-
-
-
 
 
 /********  FOR iPHONE OR OTHER THAT HAVE PIXEL RATIO 3 ********/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
-
 
     .carousel-indicators {
         bottom: 1%;
