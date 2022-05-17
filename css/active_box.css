@@ -27,7 +27,6 @@ body {}
 #mainNav .navbar-toggler {
     padding: 10px 14px 10px 10px;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    /*    font-size: 0.75rem;*/
     color: #fff;
     text-transform: uppercase;
     background-color: #E84545;
@@ -171,11 +170,6 @@ body {}
 }
 
 .icon_main {
-    /*
-    padding: 30px 135px;
-    align-items: center;
-    justify-content: center;
-*/
     text-align: center;
     margin: 30px 0;
 }
@@ -203,76 +197,119 @@ body {}
     margin-top: 19px;
 }
 
-/*
-.pencil_icon {
-    margin-left: 8px;
-}
-
-.bulb_icon {
-    margin-left: 15px;
-}
-
-.atom_icon {
-    margin-left: 9px;
-}
-
-.cloud_icon {
-    margin-left: -4px;
-}
-*/
-
 .icon_shadow {
     transition: all linear .3s;
 }
 
 /* icon part end*/
 
-
-
 /* works part */
 
-.top_work {
-    position: relative;
-    border: 1px solid #fff;
+#portfolio {
+    background: ;
+    padding: 0 0 14px 0;
 }
 
-.btm_work {
-    position: relative;
-    border: 1px solid #fff;
+#portfolio h3 {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
-.work_overlay {
+#portfolio p {
+    color: #fff;
+}
+
+.portfolio-title {
+    text-align: center;
+}
+
+#portfolio nav {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.objects {
+    padding: 35px 0;
+    text-align: center;
+}
+
+.objects span {
+    padding: 7px 23px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 20px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    background: #13ab97;
+    line-height: 2.8;
+    transition: all 0.3s ease;
+}
+
+.objects span.active,
+.objects span:hover {
+    color: #17C7B0;
+    background: #fff;
+}
+
+.gallery {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery .photo {
+    width: calc(100%/4);
+    border: 1px solid #fff;
+}
+#portfolio .col-lg-12{padding: 0;}
+.work-main {
+    position: relative;
+}
+
+.work-main .work-overlay {
     position: absolute;
     background: rgba(231, 61, 58, 0.7);
     height: 100%;
     width: 100%;
     top: 0;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     opacity: 0;
-    transition: all linear .4s;
-    padding: 30% 0;
+    transition: all linear .1s;
+    padding: 32% 0;
     cursor: pointer;
-
 }
 
-.work_overlay h5 {
+.work-main:hover .work-overlay {
+    opacity: 1;
+}
+
+.work-overlay h5 {
     color: #fff;
-    font-size: 14px;
     font-weight: bold;
+    font-size: 14px;
     text-transform: uppercase;
 }
-
-.work_overlay p {
+.work-overlay p {
     color: #fff;
     text-transform: capitalize;
 }
 
-.top_work:hover .work_overlay,
-.btm_work:hover .work_overlay {
-    opacity: 1;
-    transition: all linear .4s;
+.gallery .photo.hide {
+    display: none;
+}
+
+.gallery .photo.show {
+    animation: animate 0.4s ease;
 }
 
 /* works part end*/
