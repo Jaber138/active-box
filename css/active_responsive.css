@@ -112,6 +112,16 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+    #download {
+        padding: 47px 0;
+    }
+    #services {
+      padding: 27px 0;
+    }
+    #team {
+      padding-top: 65px;
+      padding-bottom: 19px;
+    }
 }
 
 /********************  MOBILE LAYOUT***/
@@ -189,6 +199,10 @@
     #portfolio {
         padding: 30px 0 30px 0;
     }
+    #team {
+      padding-top: 60px;
+      padding-bottom: 10px;
+    }    
 }
 
 
